@@ -1,0 +1,6 @@
+#este es un sencillo metodo para calcular una hipoteca con interes simple
+
+P= 400000
+r=0.03/12
+n=30*12
+pago = P* (r*(1+r)**n)/((1+r)**n+1)
